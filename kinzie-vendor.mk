@@ -16,32 +16,26 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
+$(call inherit-product, vendor/motorola/kinzie/Android.mk)
 $(call inherit-product, vendor/motorola/kinzie/kinzie-vendor-blobs.mk)
 
-# Prebuilt APKs
 PRODUCT_PACKAGES += \
-    MotoSignatureApp
-
-# Prebuilt jars
-PRODUCT_PACKAGES += \
-    com.google.widevine.software.drm \
-    com.motorola.motosignature \
-    org.simalliance.openmobileapi \
-    qcnvitems \
-    qcrilhook
-
-# Prebuilt privileged APKs
-PRODUCT_PACKAGES += \
-    CNEService \
+    libloc_api_v02 \
+    libloc_ds_api \
+    libtime_genoff \
+    DMConfigUpdate \
+    HiddenMenu \
+    ims \
+    MotoSignatureApp \
+    TimeService \
     atfwd \
+    CNEService \
+    ConnMO \
     CQATest \
+    DCMO \
+    DiagMon \
     DMService \
-    qcrilmsgtunnel
-
-# Prebuilt libs needed for compilation
-PRODUCT_PACKAGES += \
-
-# Prebuilt vendor/libs needed for compilation
-PRODUCT_PACKAGES += \
-    libtime_genoff
-
+    GCS \
+    LifetimeData \
+    qcrilmsgtunnel \
+    SprintDM

@@ -277,4 +277,3 @@ fi
 create_common_revision_data "${FILE}" "${HNAME}" "${VEND}" "${HREV}" "${DATE}" "${LOT_CODE}" "${FREV}"
 apply_revision_data_perms "${FILE}"
 
-
