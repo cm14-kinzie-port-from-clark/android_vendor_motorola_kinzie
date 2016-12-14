@@ -115,6 +115,7 @@ PRODUCT_COPY_FILES += \
  vendor/motorola/kinzie/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/etc/firmware/left.tfa9890_voice_table.preset \
  vendor/motorola/kinzie/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
  vendor/motorola/kinzie/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+ vendor/motorola/kinzie/proprietary/etc/firmware/MotorolaCapSense.hex:system/etc/firmware/MotorolaCapSense.hex \
  vendor/motorola/kinzie/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
  vendor/motorola/kinzie/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
  vendor/motorola/kinzie/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
