@@ -207,6 +207,12 @@ PRODUCT_COPY_FILES += \
  vendor/motorola/kinzie/proprietary/priv-app/DMService/lib/arm/libdmjavaplugin.so:system/priv-app/DMService/lib/arm/libdmjavaplugin.so \
  vendor/motorola/kinzie/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
  vendor/motorola/kinzie/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+ vendor/motorola/clark/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
+ vendor/motorola/clark/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
+ vendor/motorola/clark/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
+ vendor/motorola/clark/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
+ vendor/motorola/clark/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
+ vendor/motorola/clark/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
  vendor/motorola/kinzie/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
  vendor/motorola/kinzie/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
  vendor/motorola/kinzie/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
@@ -345,8 +351,6 @@ PRODUCT_COPY_FILES += \
  vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_hdr_be_stats46.so:system/vendor/lib/libmmcamera_isp_hdr_be_stats46.so \
  vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_ihist_stats46.so:system/vendor/lib/libmmcamera_isp_ihist_stats46.so \
  vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:system/vendor/lib/libmmcamera_isp_linearization40.so \
- vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:system/vendor/lib/libmmcamera_isp_ltm44.so \
- vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:system/vendor/lib/libmmcamera_isp_luma_adaptation40.so \
  vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_mce40.so:system/vendor/lib/libmmcamera_isp_mce40.so \
  vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff44.so:system/vendor/lib/libmmcamera_isp_mesh_rolloff44.so \
  vendor/motorola/kinzie/proprietary/vendor/lib/libmmcamera_isp_pedestal_correct46.so:system/vendor/lib/libmmcamera_isp_pedestal_correct46.so \
