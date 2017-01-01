@@ -207,12 +207,12 @@ PRODUCT_COPY_FILES += \
  vendor/motorola/kinzie/proprietary/priv-app/DMService/lib/arm/libdmjavaplugin.so:system/priv-app/DMService/lib/arm/libdmjavaplugin.so \
  vendor/motorola/kinzie/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
  vendor/motorola/kinzie/proprietary/vendor/bin/qti:system/vendor/bin/qti \
- vendor/motorola/clark/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
- vendor/motorola/clark/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
- vendor/motorola/clark/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
- vendor/motorola/clark/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
- vendor/motorola/clark/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
- vendor/motorola/clark/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
+ vendor/motorola/kinzie/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
+ vendor/motorola/kinzie/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
+ vendor/motorola/kinzie/proprietary/vendor/etc/perf-profile2.conf:system/vendor/etc/perf-profile2.conf \
+ vendor/motorola/kinzie/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
+ vendor/motorola/kinzie/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
+ vendor/motorola/kinzie/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
  vendor/motorola/kinzie/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
  vendor/motorola/kinzie/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
  vendor/motorola/kinzie/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
